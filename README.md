@@ -23,4 +23,4 @@ while x<5:
   print('hello world')
   x+=1
 ```
-Notice how in the for loop I don't have to ever initialize the variable, and I don't have to change it using an expression like x+=1. That's because in the for loop x changes automatically each time through the loop, starting at the first item in the collection. The range function generates a list of numbers between 0 and 5. So, the first time through the for loop, x=0. Then x=1, x=2, x=3, and x=4. The range function doesn't include the maximum (in this case 5), so the loop only runs 5 times. Navigate to the Python file to learn more about for loops!
+Notice how in the for loop I don't have to ever initialize the variable, and I don't have to change it using an expression like x+=1. That's because in the for loop x changes automatically each time through the loop, starting at the first item in the collection. The range function generates a collection of integers between 0 and 5. So, the first time through the for loop, x=0. Then x=1, x=2, x=3, and x=4. The range function doesn't include the maximum (in this case 5), so the loop only runs 5 times. Navigate to the Python file to learn more about for loops!
